@@ -4,14 +4,9 @@ import { startStandaloneServer } from '@apollo/server/standalone';
 
 const typedefs = `#graphql
 
-    type Room{
-
-        id: ID!
-        name: String!
-        rent: float
+        
 
     
-    }
 
 
 
